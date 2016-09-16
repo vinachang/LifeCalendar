@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/display_method" />
+    <RadioGroup
+        android:id="@+id/display_method"
+        style="@style/widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/radioButtonYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:checked="true"
+            android:text="年" />
+        <RadioButton
+            android:id="@+id/radioButtonLife"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="一生" />
+    </RadioGroup>
+
+
+
+
+    <TextView
+        style="@style/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/birthday" />
+
+    <EditText
+        android:id="@+id/birthday"
+        style="@style/widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="yyyy-mm-dd" />
+
+    <TextView
+        style="@style/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/life_expectancy" />
+
+    <EditText
+        android:id="@+id/life_expectancy"
+        style="@style/widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="請輸入預期壽命" />
+
+    <!--<TextView-->
+        <!--style="@style/label"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/current_dot_color" />-->
+    <!--<EditText-->
+        <!--style="@style/widget"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="請輸入當日標計顏色" />-->
+
+    <!--<TextView-->
+        <!--style="@style/label"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/dot_color" />-->
+    <!--<EditText-->
+        <!--style="@style/widget"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="請輸入預期壽命" />-->
+
+    <Button
+        android:id="@+id/button_save"
+        style="@style/widget"
+        android:backgroundTint="@color/edittext_tint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="儲存"/>
+
+</LinearLayout>

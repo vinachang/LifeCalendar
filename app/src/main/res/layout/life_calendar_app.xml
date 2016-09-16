@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--<Button-->
+        <!--android:id="@+id/button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:text="通知"/>-->
+    <com.example.vc.lifecalendar.LifeCalendarView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/life_calendar"
+        custom:lifeExpectancy="70"
+        custom:birthday="1989-04-10"
+        custom:display="CurrentYear"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />

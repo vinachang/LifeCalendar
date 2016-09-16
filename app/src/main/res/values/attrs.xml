@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LifeCalendarView">
+        <attr name="lifeExpectancy" format="integer" />
+        <attr name="birthday" format="string"/>
+        <attr name="display" format="enum">
+            <enum name="CurrentYear" value="0"/>
+            <enum name="Life" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

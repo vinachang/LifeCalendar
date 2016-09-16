@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LifeCalendar</string>
+    <string name="display_method">顯示方式</string>
+    <string name="birthday">生日</string>
+    <string name="life_expectancy">預期壽命</string>
+    <string name="current_dot_color">標示顏色</string>
+    <string name="dot_color">圓點顏色</string>
+</resources>
